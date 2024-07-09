@@ -46,7 +46,7 @@ const Navbar = () => {
           <p className="text-zinc-300  text-[12px] my-1 font-semibold">Add</p>
         </button>
       </div>
-      <div className="flex bg-zinc-700 w-12 my-4 ml-96 mr-4 h-12 rounded-full"></div>
+      <button className="flex bg-zinc-700 w-12 my-4 ml-96 mr-4 h-12 rounded-full"></button>
     </div>
   );
 };

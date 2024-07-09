@@ -3,7 +3,7 @@ import React from "react";
 const Board = () => {
   return (
     <div className="flex bg-black h-screen">
-      <div className="bg-zinc-900 w-11/12 ml-16 mt-16 mb-24 rounded-2xl">
+      <div className="bg-zinc-900 w-11/12 ml-20 mt-16 mb-24 rounded-2xl">
         <div className="text-center text-white mt-10">
           <p className="text-[40px]">Welcome to StarMapper</p>
           <p className="text-[20px] pt-10">
@@ -15,7 +15,7 @@ const Board = () => {
         <div className="">
           <div className="flex bg-zinc-800 w-3/5 h-32 mt-12 ml-80 rounded-3xl">
             <div className="">
-              <img src="" alt="img" className="ml-16 mt-12" />
+              <img src="" alt="img" className="ml-16 mt-12 " />
             </div>
 
             <div>
@@ -28,7 +28,7 @@ const Board = () => {
                 with teams for greater degree of collaborations.
               </div>
             </div>
-            <button className="bg-zinc-600 w-80 h-12 text-white text-center mr-16 mt-10 pt-2 font-semibold rounded-xl">
+            <button className="bg-zinc-600 w-80 h-12 text-white text-center mr-16 mt-12 font-semibold rounded-xl">
               Explore Now
             </button>
           </div>
@@ -46,13 +46,13 @@ const Board = () => {
                 with teams for greater degree of collaborations.
               </div>
             </div>
-            <button className="bg-zinc-600 w-80 h-12 text-white text-center mr-16 mt-10 pt-2 font-semibold rounded-xl">
+            <button className="bg-zinc-600 w-80 h-12 text-white text-center mr-16 mt-10  font-semibold rounded-xl">
               Explore Now
             </button>
           </div>
           <div className="flex bg-zinc-800 w-3/5 h-32 mt-8 ml-80 rounded-3xl">
             <div>
-              <img src="" alt="img" className="ml-16 mt-8" />
+              <img src="" alt="img" className="ml-16 mt-8 bg-zinc-800 w-1/5" />
             </div>
             <div>
               <div className="mt-2 mx-28 text-white font-bold">
@@ -64,7 +64,7 @@ const Board = () => {
                 with teams for greater degree of collaborations.
               </div>
             </div>
-            <button className="bg-zinc-600 w-80 h-12 text-white text-center mr-16 mt-10 pt-2 font-semibold rounded-xl">
+            <button className="bg-zinc-600 w-80 h-12 text-white text-center mr-16 mt-10 font-semibold rounded-xl">
               Explore Now
             </button>
           </div>
